@@ -3,7 +3,7 @@ var wormie;
 function setup(){
   createCanvas(800, 800, WEBGL);
 
-  wormie = loadModel('./assets/wormie.obj');
+  wormie = loadModel('assets/wormie.obj', true);
 }
 
 function draw(){
